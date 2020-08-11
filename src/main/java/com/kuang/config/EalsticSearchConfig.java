@@ -17,6 +17,7 @@ import org.springframework.context.annotation.Configuration;
 public class EalsticSearchConfig {
 
     //spring <bean id= class=>
+
     @Bean
     public RestHighLevelClient restHighLevelClient() {
         RestHighLevelClient client = new RestHighLevelClient(
