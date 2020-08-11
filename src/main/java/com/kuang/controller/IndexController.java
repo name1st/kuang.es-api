@@ -20,6 +20,7 @@ public class IndexController {
     public String hello(){
 
         System.out.println("Hello cehi!");
+        System.out.println("Hello cehi!");
         return "hello";
     }
 
